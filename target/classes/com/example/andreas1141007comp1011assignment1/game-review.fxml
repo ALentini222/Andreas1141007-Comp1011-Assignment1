@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.BarChart?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.layout.Pane?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="504.0"
+      prefWidth="792.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="com.example.andreas1141007comp1011assignment1.Controllers.HelloController">
+    <BarChart fx:id="barChart" layoutX="146.0" layoutY="52.0" title="Game Reviews by Playtime">
+      <xAxis>
+          <CategoryAxis fx:id="gameName" side="BOTTOM"/>
+      </xAxis>
+      <yAxis>
+          <NumberAxis fx:id="gameReview" side="LEFT"/>
+      </yAxis>
+    </BarChart>
+</Pane>
